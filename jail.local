@@ -1,0 +1,15 @@
+[ovz-wp]
+
+enabled = true
+port = 3000
+filter = ovz-wp
+logpath = /opt/ovz-web-panel/log/production.log
+maxretry = 3
+
+[ajenti]
+
+enabled = true
+port = 8000
+filter = ajenti
+logpath = /var/log/user.log
+maxretry = 3
