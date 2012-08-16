@@ -5,6 +5,13 @@ filter = ajenti
 logpath = /var/log/user.log
 maxretry = 3
 
+[ispconfig3]
+enabled = true
+port = 8080
+filter = ispconfig3
+logpath = /var/log/ispconfig/auth.log
+maxretry = 3
+
 [mod_qos]
 enabled = true
 port = 80
