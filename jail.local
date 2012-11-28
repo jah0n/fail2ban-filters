@@ -19,6 +19,13 @@ filter = mod_qos
 logpath = /var/log/apache2/error.log
 maxretry = 1
 
+[nginx-naxsi]
+enabled = true
+port = http,https
+filter = nginx-naxsi
+logpath = /var/log/nginx/*error.log
+maxretry = 3
+
 [ovz-wp]
 enabled = true
 port = 3000
