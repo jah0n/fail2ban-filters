@@ -19,6 +19,13 @@ filter = mod_qos
 logpath = /var/log/apache2/error.log
 maxretry = 1
 
+[mysqld-resolv]
+enabled = true
+port = 3306
+filter = mysqld-resolve
+logpath = /var/log/daemon.log
+maxretry = 1
+
 [nginx-naxsi]
 enabled = true
 port = http,https
