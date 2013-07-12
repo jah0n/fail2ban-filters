@@ -19,7 +19,7 @@ filter = mod_qos
 logpath = /var/log/apache2/error.log
 maxretry = 1
 
-[mysqld-resolv]
+[mysqld-resolve]
 enabled = true
 port = 3306
 filter = mysqld-resolve
